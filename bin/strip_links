@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require '/Users/dustin/Documents/adium_logs/xml_stripper'
+
+stripper = XmlStripper.new
+stripper.strip
+stripper.build_link_file
